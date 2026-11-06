@@ -68,6 +68,6 @@ const previousResourceBindExtra=bindExtra;
 bindExtra=function(){previousResourceBindExtra();$$('[data-edit-resource]').forEach(button=>button.onclick=e=>{e.stopPropagation();openResourceForm(+button.dataset.editResource)});};
 
 $('#updateBtn').onclick=async()=>{const button=$('#updateBtn');button.disabled=true;button.textContent='Updating…';if('caches'in window)await caches.keys().then(keys=>Promise.all(keys.map(key=>caches.delete(key))));if('serviceWorker'in navigator){const registrations=await navigator.serviceWorker.getRegistrations();await Promise.all(registrations.map(reg=>reg.unregister()))}location.reload()};
-if('serviceWorker'in navigator)navigator.serviceWorker.addEventListener('controllerchange',()=>{if(sessionStorage.getItem('vaelis_v16_reloaded'))return;sessionStorage.setItem('vaelis_v16_reloaded','1');location.reload()});
+if('serviceWorker'in navigator)navigator.serviceWorker.addEventListener('controllerchange',()=>{if(sessionStorage.getItem('vaelis_v17_reloaded'))return;sessionStorage.setItem('vaelis_v17_reloaded','1');location.reload()});
 
 render();

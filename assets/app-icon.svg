@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="104" fill="#120d1d"/>
+  <rect x="112" y="62" width="288" height="388" rx="24" fill="#251a38" stroke="#c7a66a" stroke-width="14"/>
+  <rect x="133" y="83" width="246" height="346" rx="14" fill="none" stroke="#6d4a9b" stroke-width="5"/>
+  <path d="M256 124l23 59 59 23-59 23-23 63-23-63-59-23 59-23z" fill="#9c7bd1"/>
+  <path d="M184 335h144" stroke="#c7a66a" stroke-width="6" stroke-linecap="round"/>
+  <text x="256" y="388" fill="#eee4d2" font-family="Georgia,serif" font-size="72" font-weight="700" text-anchor="middle">XIII</text>
+</svg>

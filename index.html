@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#120d1d">
   <meta name="description" content="Interactive character sheet for Vaelis Duskryn, the Last of Thirteen.">
-  <link rel="manifest" href="./manifest.webmanifest?v=16">
+  <link rel="manifest" href="./manifest.webmanifest?v=17">
   <link rel="apple-touch-icon" href="./assets/icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=16">
-  <link rel="stylesheet" href="./expanded.css?v=16">
+  <link rel="stylesheet" href="./styles.css?v=17">
+  <link rel="stylesheet" href="./expanded.css?v=17">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23120d1d'/%3E%3Cpath d='M13 8h38v48H13z' rx='4' fill='%23251a38' stroke='%23c9a767' stroke-width='3'/%3E%3Cpath d='M32 17l4 10 10 4-10 4-4 11-4-11-10-4 10-4z' fill='%239b7bd6'/%3E%3C/svg%3E">
   <title>Vaelis Duskryn · The Last of Thirteen</title>
 </head>
@@ -17,7 +17,7 @@
   <header class="topbar">
     <button class="brand" data-view="sheet"><span class="card-sigil">XIII</span><span><strong>Vaelis Duskryn</strong><small>The Last of Thirteen</small></span></button>
     <nav><button class="nav active" data-view="sheet">Sheet</button><button class="nav" data-view="magic">Magic</button><button class="nav" data-view="spirits">The Thirteen</button><button class="nav" data-view="equipment">Equipment</button><button class="nav" data-view="notes">Notes</button><button class="nav" data-view="story">Story</button></nav>
-    <div class="top-actions"><small id="buildBadge" title="Application version">v1.16</small><button id="rollModifierBtn" class="outline">Roll Modifiers</button><button id="updateBtn" class="outline" title="Force the latest version to load">Update</button><button id="modeBtn" class="outline">Edit</button><button id="installBtn" class="outline hidden">Install</button></div>
+    <div class="top-actions"><small id="buildBadge" title="Application version">v1.17</small><button id="rollModifierBtn" class="outline">Roll Modifiers</button><button id="updateBtn" class="outline" title="Force the latest version to load">Update</button><button id="modeBtn" class="outline">Edit</button><button id="installBtn" class="outline hidden">Install</button></div>
   </header>
 
   <main>
@@ -116,11 +116,11 @@
   </div>
   <div id="rollModifierModal" class="rest-modal hidden" role="dialog" aria-modal="true" aria-labelledby="rollModifierTitle"><div class="rest-dialog modifier-dialog"><button id="closeRollModifier" class="rest-close" aria-label="Close">×</button><span class="kicker">Dice Assistance</span><h2 id="rollModifierTitle">Roll Modifiers</h2><p>Add extra dice to every check, saving throw, attack, and damage roll made through the sheet.</p><div class="modifier-fields"><label>Number of dice<input id="modifierCount" type="number" min="0" max="20" value="0"></label><label>Die<select id="modifierDie"><option value="4">d4</option><option value="6" selected>d6</option><option value="8">d8</option><option value="10">d10</option><option value="12">d12</option><option value="20">d20</option></select></label></div><div class="modifier-preview" id="modifierPreview">Normal roll — no modifier dice</div><button id="saveRollModifier" class="rest-action">Save modifier</button><button id="resetRollModifier" class="rest-action secondary">Reset to normal roll</button></div></div>
   <div id="rollToast" class="toast" aria-live="polite"></div>
-  <script src="./app.js?v=16"></script>
-  <script src="./enhancements.js?v=16"></script>
-  <script src="./rest.js?v=16"></script>
-  <script src="./resources-plus.js?v=16"></script>
-  <script src="./roll-modifiers.js?v=16"></script>
-  <script src="./currency.js?v=16"></script>
+  <script src="./app.js?v=17"></script>
+  <script src="./enhancements.js?v=17"></script>
+  <script src="./rest.js?v=17"></script>
+  <script src="./resources-plus.js?v=17"></script>
+  <script src="./roll-modifiers.js?v=17"></script>
+  <script src="./currency.js?v=17"></script>
 </body>
 </html>
